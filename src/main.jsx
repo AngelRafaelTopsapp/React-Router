@@ -1,6 +1,6 @@
 import React, { Children } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./src/App.jsx";
+import App from "./App.jsx";
 import "./index.css";
 
 import {
@@ -10,11 +10,11 @@ import {
   HashRouter,
 } from "react-router-dom";
 
-import Home from "./src/routes/Home.jsx";
-import Contact from "./src/routes/Contact.jsx";
-import ErrorPage from "./src/routes/ErrorPage.jsx";
-import ContactDetails from "./src/routes/ContactDetails.jsx";
-import Video from "./src/routes/VideoModal.jsx";
+import Home from "./routes/Home.jsx";
+import Contact from "./routes/Contact.jsx";
+import ErrorPage from "./routes/ErrorPage.jsx";
+import ContactDetails from "./routes/ContactDetails.jsx";
+import Video from "./routes/VideoModal.jsx";
 
 const router = createBrowserRouter([
   {
