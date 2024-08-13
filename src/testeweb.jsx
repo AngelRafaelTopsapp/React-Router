@@ -3,6 +3,9 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-   <h1>teste</h1>
+    <div>
+     <button class="bg-emerald-400"> eu sou um botao idiota 1</button>
+     <button class="bg-yellow-400"> eu sou um botao idiota 2</button>
+    </div>
   </React.StrictMode>
 );
