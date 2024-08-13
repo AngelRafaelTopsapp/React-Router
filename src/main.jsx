@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         path: "video",
         element: <Video />,
       },
-      
+
       {
         path: "/contact/:id",
         element: <ContactDetails />,
