@@ -5,7 +5,7 @@ createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div>
      <button class="bg-emerald-400"> eu sou um botao idiota 1</button>
-     <video> era pra ter um videobtete mil e 1</video>
+     <video> era pra ter um videobtete</video>
      <button class="bg-yellow-400"> eu sou um botao idiota 2</button>
     </div>
   </React.StrictMode>
