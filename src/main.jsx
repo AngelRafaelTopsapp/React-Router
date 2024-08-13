@@ -7,6 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
   Navigate,
+  HashRouter,
 } from "react-router-dom";
 
 import Home from "./routes/Home.jsx";
@@ -50,7 +51,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <RouterProvider router={router} />
+    </HashRouter>
   </React.StrictMode>
 );
-
